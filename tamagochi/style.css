@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #tamagotchi-container {
+    margin-top: 100px;
+  }
+  
+  #status-container {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  

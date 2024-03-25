@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>spotify</title>
+</head>
+<body>
+    <div class="phone">
+        <div class="phoneCem">
+        </div>
+        
+        <div class="log-in phone-one-log-in">
+          <div class="logo">
+          <img src="https://pixlok.com/wp-content/uploads/2021/12/Spotify_logo_without-03mdf-768x768.png">
+          <p>Spotify</p>
+          </div>
+          
+          <input type="text" placeholder="Username">
+          <input type="text" placeholder="Password">
+          <br>
+          <a href="##" class="forgot">Forgot password?</a>
+          
+          <button>Sign In</button>
+          
+          <span>be correct with</span>
+          <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-google"></i>
+          </div>
+          <p class="note">Don't have an account?<a onclick="phoneOneSignBtn()">Sign Up</a></p>
+        </div>
+        <!---log-in---->
+        
+        <div class="sign-in phone-one-sign-in">
+          <div class="logo spotify">
+          <img src="https://pixlok.com/wp-content/uploads/2021/12/Spotify_logo_without-03mdf-768x768.png">
+          <p>Spotify</p>
+          </div>
+          
+          <input type="text" placeholder="Email Address" class="info">
+          <input type="text" placeholder="Full Name" class="info">
+          <input type="text" placeholder="Password" class="info">
+          <br>
+          <label>date of birth:</label>
+          <input type="text" placeholder="DD" class="date">
+          <input type="text" placeholder="MM" class="date">
+          <input type="text" placeholder="YY" class="date">
+          <br>
+          <div class="gender">
+            <label for="male">
+              <input type="radio" id="male" name="gender">
+              male
+            </label>
+      
+            <label for="female">
+              <input type="radio" id="female" name="gender">
+              female
+            </label>
+          </div>
+          <br>
+          <a href="##" class="forgot">Forgot password?</a>
+          
+          <button>Sign Up</button>
+          
+          <span>sign up with</span>
+          <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-google"></i>
+          </div>
+          <p class="note">Already have an account?<a onclick="phoneOnelogBtn()">Sign In</a></p>
+        </div>
+        <!---sign-in---->
+        
+      </div>
+      <!----phone--->
+      <div class="phone second">
+        <div class="phoneCem">
+        </div>
+        
+        <div class="sign-in phone-two-sign-in">
+          <div class="logo">
+          <img src="https://pixlok.com/wp-content/uploads/2021/12/Spotify_logo_without-03mdf-768x768.png">
+          <p>Spotify</p>
+          </div>
+          
+          <input type="text" placeholder="Email Address" class="info">
+          <input type="text" placeholder="Full Name" class="info">
+          <input type="text" placeholder="Password" class="info">
+          <br>
+          <label>date of birth:</label>
+          <input type="text" placeholder="DD" class="date">
+          <input type="text" placeholder="MM" class="date">
+          <input type="text" placeholder="YY" class="date">
+          <br>
+          <div class="gender">
+            <label for="male">
+              <input type="radio" id="male" name="gender">
+              male
+            </label>
+      
+            <label for="female">
+              <input type="radio" id="female" name="gender">
+              female
+            </label>
+          </div>
+          <br>
+          <a href="##" class="forgot">Forgot password?</a>
+          
+          <button>Sign Up</button>
+          
+          <span>sign up with</span>
+          <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-google"></i>
+          </div>
+          <p class="note">Already have an account?<a onclick="phoneTwologBtn()">Sign In</a></p>
+        </div>
+        <!---sign-in---->
+        
+        <div class="log-in phone-two-log-in">
+          <div class="logo spotifyTwo">
+          <img src="https://pixlok.com/wp-content/uploads/2021/12/Spotify_logo_without-03mdf-768x768.png">
+          <p>Spotify</p>
+          </div>
+          
+          <input type="text" placeholder="Username">
+          <input type="text" placeholder="Password">
+          <br>
+          <a href="##" class="forgot">Forgot password?</a>
+          
+          <button>Sign In</button>
+          
+          <span>be correct with</span>
+          <div class="icon">
+          <i class="fa fa-facebook-f"></i>
+          <i class="fa fa-google"></i>
+          </div>
+          <p class="note">Don't have an account?<a onclick="phoneTwoSignBtn()">Sign Up</a></p>
+        </div>
+        <!---log-in---->
+        
+      </div>
+      <!----phone--->
+      
+      <i class="fa fa-play" id="plays" style='font-size:2em' onclick="play()"></i>
+      
+      <div class="music">
+        <audio loop id="myAudio" src="https://drive.google.com/uc?export=download&id=15BusC6b9w2GFmStugHqLtAQyhPrgxA7O" type="audio/mpeg"></audio>
+      </div>
+ <script src="script.js"></script>
+</body>
+</html>

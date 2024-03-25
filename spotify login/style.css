@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    user-select:none;
+    box-sizing:border-box;
+    transition:all .3s;
+  }
+  
+  
+  :root{
+    --green:#1db954;
+    --greenTwo:#1ed760;
+    --dark:#191414;
+    --light:#ffffff;
+    --black:#000;
+  }
+  
+  body{
+    display:grid;
+    grid-template-columns:auto auto;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    min-height:100vh;
+    background:url('https://helios-i.mashable.com/imagery/articles/02F3gmkGYJutY3Jm1hXFd9G/hero-image.fill.size_1248x702.v1632500706.png');
+    background-size:cover;
+    background-position:center;
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+  }
+  
+  
+  body:after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:var(--green);
+    opacity:.95;
+    z-index:-1;
+  }
+  
+  
+  .phone{
+    width:310px;
+    height:580px;
+    background:var(--dark);
+    border:10px solid var(--black);
+    border-radius:40px;
+    position:relative;
+    box-shadow:0 0 50px #30963c;
+  }
+  
+  
+  .phone .phoneCem{
+    width:150px;
+    height:20px;
+    background:var(--black);
+    position:absolute;
+    left:50%;
+    top:0;
+    transform:translate(-50%,0);
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+  }
+  
+  
+  .phone .logo{
+    color:var(--light);
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:20px;
+  }
+  
+  .second .logo{
+    margin-top:35px;
+    margin-bottom:20px;
+  }
+  
+  .phone .logo img{
+    width:80px;
+  }
+  
+  
+  .phone .logo p{
+    margin-top:2px;
+    font-size:2em;
+  }
+  
+  
+  .phone .log-in,
+  .phone .sign-in{
+    padding:0 25px;
+  }
+  
+  
+  .phone .log-in input,
+  .phone .sign-in .info{
+    border:none;
+    outline:none;
+    width:100%;
+    padding:12px 15px;
+    margin:8px 0;
+    border-radius:50px;
+    background: #191414;
+  box-shadow: inset -18px 18px 56px #0a0808,
+              inset 18px -18px 56px #282020;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+  }
+  
+  
+  .phone .log-in input::placeholder,
+  .phone .sign-in .info::placeholder,
+  .phone .sign-in .date::placeholder{
+    color:#444;
+  }
+  
+  
+  .phone .log-in input:focus,
+  .phone .sign-in .info:focus,
+  .phone .sign-in .date:focus{
+    background: linear-gradient(225deg, #1b1515, #171212);
+  box-shadow:  -18px 18px 56px #0a0808,
+               18px -18px 56px #282020;
+    caret-color:var(--green);
+  
+  }
+  
+  
+  .phone .log-in .forgot,
+  .phone .sign-in .forgot{
+    color:#444;
+    display:block;
+    text-decoration:none;
+    font-size:.80em;
+    text-align:right;
+    margin-top:5px;
+  }
+  
+  
+  .phone .log-in .forgot:hover,
+  .phone .sign-in .forgot:hover{
+    color:var(--greenTwo);
+  }
+  
+  
+  .phone .log-in button,
+  .phone .sign-in button{
+    display:block;
+    width:100%;
+    margin-top:20px;
+    border:none;
+    outline:none;
+    padding:12px 0;
+    border-radius:50px;
+    background:linear-gradient(85deg,#30963c,var(--greenTwo));
+    color:#fff;
+    font-weight:700;
+    cursor:pointer;
+    transition:all .5s;
+  }
+  
+  .phone .log-in button:hover,
+  .phone .sign-in button:hover{
+    background:linear-gradient(5deg,#30963c,var(--greenTwo));
+  }
+  
+  
+  .phone .log-in span,
+  .phone .sign-in span{
+    color:var(--green);
+    text-transform:capitalize;
+    display:block;
+    text-align:center;
+    font-size:.85em;
+    margin-top:20px;
+  }
+  
+  .phone .log-in .icon,
+  .phone .sign-in .icon{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    color:var(--light);
+  }
+  
+  .phone .log-in .fa,
+  .phone .sign-in .fa{
+    cursor:pointer;
+    text-align:center;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(225deg, #1b1515, #171212);
+  box-shadow:  -10px 10px 20px #100c0c,
+               10px -10px 20px #231c1c;
+  }
+  
+  .phone .log-in .fa:hover,
+  .phone .sign-in .fa:hover{
+    background: #191414;
+  box-shadow: inset -10px 10px 20px #100c0c,
+              inset 10px -10px 20px #231c1c;
+  }
+  
+  
+  
+  .phone .log-in .note,
+  .phone .sign-in .note{
+    color:#444;
+    font-size:.95em;
+    margin-top:10px;
+  }
+  
+  
+  .phone .log-in .note a,
+  .phone .sign-in .note a{
+    color:var(--green);
+    cursor:pointer;
+  }
+  
+  .phone .log-in .note a:hover,
+  .phone .sign-in .note a:hover{
+    color:var(--greenTwo);
+  }
+  
+  
+  
+  .phone .sign-in .logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+  }
+  
+  .phone .sign-in .logo img{
+    width:40px;
+  }
+  
+  .phone .sign-in .logo p{
+    margin-top:25px;
+  }
+  
+  
+  .phone .sign-in label{
+    color:var(--green);
+    text-transform:capitalize;
+    font-size:.85em;
+    margin-left:15px;
+  }
+  
+  .phone .sign-in .date{
+    width:35px;
+    border:none;
+    outline:none;
+    border-radius:20px;
+    text-align:center;
+    margin:10px 3.5px;
+    background: #191414;
+  box-shadow: inset -18px 18px 56px #0a0808,
+              inset 18px -18px 56px #282020;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+  }
+  
+  
+  
+  .phone .sign-in .gender{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+  .phone .sign-in .gender label{
+    cursor:pointer;
+  }
+  
+  .phone .sign-in .gender label:hover{
+    color:var(--greenTwo);
+  }
+  
+  
+  
+  
+  .phone-one-sign-in,
+  .phone-two-log-in{
+    display:none;
+  }
+  
+  
+  .music{
+    width:0%;
+    height:5px;
+    background:var(--dark);
+    position:fixed;
+    bottom:0;
+    left:0;
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+  }
+  
+  
+  #plays{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    cursor:pointer;
+    color:var(--light);
+  }
+  
+  
+  #plays:hover{
+    color:var(--dark);
+  }
+  
+  
+  @media (min-width: 0px) and (max-width: 700px){
+    body{
+      grid-template-columns:auto;
+      gap:50px;
+      margin:40px 0;
+      
+    }
+    
+    body:after{
+      top:-40px;
+      height:calc(100% + 80px);
+    }
+  }
