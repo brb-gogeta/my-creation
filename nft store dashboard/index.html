@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Store dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+    <body class="light-theme dark-theme">
+        <header>
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="header-inner d-flex justify-content-between align-items-center">
+                <a class="navbar-brand flex-shrink-0" href="#"><img src="https://yudiz.com/codepen/nft-store/logo-icon.svg" alt="logo-image" class="img-fluid">
+                  NFT Store</a>
+                <div class="header-content d-flex align-items-center justify-content-end">
+                  <form class="d-flex justify-content-end align-items-center">
+                    <div class="search-icon">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <label class="switch flex-shrink-0 mb-0">
+                      <input id="checkbox" type="checkbox">
+                      <span class="slider round"></span>
+                    </label>
+                  </form>
+                  <a herf="#" class="profile"><img src="https://yudiz.com/codepen/nft-store/user-pic1.svg" alt="user-image">Johny B</a>
+                  <a href="#" class="notification"><i class="fa fa-bell" aria-hidden="true"></i></a>
+      
+                </div>
+              </div>
+              <button class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </header>
+        <div class="nft-store">
+          <div class="container-fluid">
+            <div class="nft-store-inner d-flex">
+              <div class="menu-links">
+                <ul>
+                  <li class="nav-item active">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-home" aria-hidden="true"></i>
+                      <span>Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-briefcase" aria-hidden="true"></i>
+                      <span>Market</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-heart-o" aria-hidden="true"></i>
+                      <span>Favourite</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-square-o" aria-hidden="true"></i>
+                      <span>Collections</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-fire" aria-hidden="true"></i>
+                      <span>Trending</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-star" aria-hidden="true"></i>
+                      <span>Featured</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                      <span>Purchased</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="d-flex align-items-center nav-link"><i class="fa fa-cog" aria-hidden="true"></i>
+                      <span>Settings</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="nft-store-content">
+                <div class="nft-up-content">
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="fire-bubble-art d-flex justify-content-between  align-items-center">
+                        <img src="https://yudiz.com/codepen/nft-store/image-1.svg" alt="fire-bubble-image" class="img-fluid fire-image fire-width">
+                        <div class="fire-content fire-width">
+                          <h3 class="mb-0">Fire'o Bubble Art</h3>
+                          <div class="fire-time d-flex justify-content-between">
+                            <div class="current-bid">
+                              <h4>Current Bid</h4>
+                              <span>0.70 ETH</span>
+                            </div>
+                            <div class="auction">
+                              <h4>Auction Ending in</h4>
+                              <span>07h:25m:46s</span>
+                            </div>
+                            <span class="middle-line"></span>
+                          </div>
+                          <span class="fire-user"><img src="https://yudiz.com/codepen/nft-store/user-pic1.svg" alt="user-image"> Rose
+                            Ortega</span>
+                          <div class="d-flex fire-links">
+                            <a href="#" class="heart flex-shrink-0"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                            <a href="#" class="theme-btn">Place a bid</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <figure class="paint-image" style="background: url('https://yudiz.com/codepen/nft-store/image-2.svg') no-repeat center center / cover;">
+                        <h1>Paint Art</h1>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+                <div class="trending">
+                  <div class="trending-title">
+                    <div class="row justify-content-between align-items-center">
+                      <div class="col-6">
+                        <h2>Trending Auctions</h2>
+                      </div>
+                      <div class="col-6 text-right">
+                        <a href="#" class="theme-btn"> View More </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="trending-grid">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="trending-content">
+                          <img src="https://yudiz.com/codepen/nft-store/card-1.svg" alt="card-images" class="img-fluid">
+                          <div class="trending-desc">
+                            <h4 class="user-title">Wayne Garner</h4>
+                            <h3 class="user-position">Flui oriental art</h3>
+                            <div class="bid d-flex justify-content-between align-items-center">
+                              <div>
+                                <h5>current Bid</h5>
+                                <span>0.70 ETH</span>
+                              </div>
+                              <div>
+                                <h5>Auctin Ending in</h5>
+                                <span>07h:25m:46s</span>
+                              </div>
+                            </div>
+                            <img src="https://yudiz.com/codepen/nft-store/user-pic3.svg" alt="img-fluid" class="user-image">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="trending-content">
+                          <img src="https://yudiz.com/codepen/nft-store/card-2.svg" alt="card-images" class="img-fluid">
+                          <div class="trending-desc">
+                            <h4 class="user-title">cody valdez</h4>
+                            <h3 class="user-position">Human Areology</h3>
+                            <div class="bid d-flex justify-content-between align-items-center">
+                              <div>
+                                <h5>current Bid</h5>
+                                <span>100.02 ETH</span>
+                              </div>
+                              <div>
+                                <h5>Auctin Ending in</h5>
+                                <span>09h:25m:46s</span>
+                              </div>
+                            </div>
+                            <img src="https://yudiz.com/codepen/nft-store/user-pic4.svg" alt="img-fluid" class="user-image">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="trending-content">
+                          <img src="https://yudiz.com/codepen/nft-store/card-3.svg" alt="card-images" class="img-fluid">
+                          <div class="trending-desc">
+                            <h4 class="user-title">Jayden Daniel</h4>
+                            <h3 class="user-position">Inko's Art</h3>
+                            <div class="bid d-flex justify-content-between align-items-center">
+                              <div>
+                                <h5>current Bid</h5>
+                                <span>0.70 ETH</span>
+                              </div>
+                              <div>
+                                <h5>Auctin Ending in</h5>
+                                <span>05h:25m:46s</span>
+                              </div>
+                            </div>
+                            <img src="https://yudiz.com/codepen/nft-store/user-pic5.svg" alt="img-fluid" class="user-image">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+</html>
