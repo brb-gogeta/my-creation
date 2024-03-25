@@ -1,0 +1,387 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Pragati Narrow';
+    src: url("../fonts/Pragati Narrow/PragatiNarrow-Regular.ttf") format("truetype");
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #f1f1f1;
+    font-size: 14px;   
+}
+/*************ANIMACIÓN***************/
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -15%, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+/*************ANIMACIÓN***************/
+
+/************************************ LOGIN ********************************************/
+
+@media screen and (min-width: 0px) {
+    #bgbody {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        background-color: #EE4C22;
+        background-image: url('../Images/BG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bgfiltro {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(4, 22, 51, 0.5);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#5c041633', endColorstr='#5c041633');
+    }
+    .container-secciones {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        height: 100%;
+    }
+    /*SECCION 1*/
+    .container-seccion-1 {
+        height: 15vh;
+    }
+    .container-aplication-name {
+        height: 100%;
+
+    }
+    .aplication-name {
+        padding: 0.5em 0 0 0;
+        color: #fff;
+        font-size: 2em;
+        line-height: 1;
+        font-weight: 600;
+        text-align: center;
+    }
+    .container-aplication-name span {
+        display: block;
+        margin: 0.5em auto;
+        width: 15em;
+        font-size: 1em;
+        border-left: 2px solid #1BBC9B;
+        border-right: 2px solid #1BBC9B;
+        letter-spacing: 1px;
+        padding: 0.3em 1em;
+        color: #1BBC9B;
+        text-align: center;
+        background-color: rgba(4, 22, 51, 0.3);
+    }
+    /*SECCION 1*/
+    /*SECCION 2*/
+    .container-seccion-2 {
+        height: 70vh;
+        height: 70%;
+    }
+    .container-login {
+        width: 100%;
+        height: 100%;
+        padding: 3em 0 0 0;
+    }
+    .form-login {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        font-family: 'Pragati Narrow', sans-serif;
+        font-size: 1.2em;
+        border-radius: 5px;
+        transition: all ease-in-out 1s;
+    }
+    .message {
+        display: none;
+        position: relative;
+        background-color: rgba(254, 0, 0, 0.2);
+        width: 20em;
+        color: #e1e1e1;
+        letter-spacing: 1px;
+        border-bottom: 1px solid rgba(254, 0, 0, 0.3);
+        text-align: center;
+        font-weight: normal;
+        font-size: 0.9em;
+        font-weight: lighter;
+        border-radius: 5px;
+        line-height: 1;
+        padding: 1em;
+        top: -1em;
+        margin: 0 auto;
+    }
+    .container-icon-title {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .icon-title-login {
+        width: 1.8em;
+        height: 1.8em;
+        text-align: center;
+        line-height: 1.5em;
+        font-size: 3em;
+        border-radius: 50%;
+        text-shadow: 1px 1px 2px #222;
+        border: 2px solid #1BBC9B;
+    }
+    .userName {
+        border: none;
+        background: none;
+        margin: 2em 0 1.5em -30px;
+        padding: 0.2em 0 0 1.7em;
+        letter-spacing: 0.1em;
+        width: 18em;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .userName:focus {
+        outline: none;
+        border-bottom: 1px solid #fff;
+    }
+    .userName:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        -webkit-text-fill-color: #000;
+    }
+    .icon-userName:before {
+        font-family: 'gb-icons';
+        content: 'i';
+        color: #1BBC9B;
+        font-size: 1em;
+        outline: none;
+        padding: 0.2em;
+        position: relative;
+        top: 3px;
+        left: -7px;
+    }
+    .userNameRequired {
+        margin: -0.5em 0 0 0;
+        float: right;
+    }
+    .userPassword {
+        border: none;
+        background: none;
+        padding: 0.2em 0 0 1.7em;
+        letter-spacing: 0.1em;
+        width: 18em;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        margin: 0 0 0 -30px;
+    }
+    .userPassword:focus {
+        outline: none;
+    }
+    .userPassword:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+        -webkit-text-fill-color: #000;
+    }
+    .icon-userPassword:before {
+        font-family: 'gb-icons';
+        content: 'j';
+        color: #1BBC9B;
+        font-size: 1em;
+        outline: none;
+        padding: 0.2em;
+        position: relative;
+        top: 3px;
+        left: -7px;
+    }
+    #LoginUser_LoginButton {
+        width: 18em;
+        padding: 0.4em;
+        color: #fff;
+        background: none;
+        letter-spacing: 2px;
+        border: 1px solid #fff;
+        margin: 2.5em 0 0 -7px;
+        transition: all ease-in-out 0.4s;
+    }
+    #LoginUser_LoginButton:hover {
+        background-color: #fff;
+        color: #333;
+        letter-spacing: 4px;
+        font-weight: 600;
+        border: 1px solid #fff;
+    }
+    #LoginUser_LoginButton:focus {
+        outline: none;
+    }
+    #LoginUser_RememberMe {
+        margin: 1.5em 0 1.5em 0.5em;
+    }
+    #LoginUser td, th, text {
+        text-align: center;
+    }
+    .icon-login {
+        position: relative;
+        font-size: 1.2em;
+        color: #1BBC9B;
+    }
+    /*SECCION 2*/
+    /*SECCION 3*/
+    .container-seccion-3 {
+        position: relative;
+        height: 15vh;
+    }
+    .banner-letter {
+        color: #fff;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Pragati Narrow', sans-serif;
+        font-weight: 600;
+        transition: all ease-in-out 1s;
+        top: 0.5em;
+    }
+    .banner-letter span {
+        background-color: rgba(4, 22, 51, 0.1);
+        padding: 0 0.5em 0 0.5em;
+    }
+    #nombreempresa {
+        border-left: 2px solid #D50000;
+    }
+    /*SECCION 3*/
+}
+@media screen and (min-width: 600px) {
+    /*SECCION 1*/
+    .aplication-name{
+        font-size: 2em;
+    }
+    /*SECCION 1*/
+}
+@media screen and (min-width: 1024px) {
+
+    /*SECCION 1*/
+    .container-seccion-1 {
+        position: relative;
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+    .container-aplication-name {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: auto;
+        bottom: 40px;
+    }
+    .aplication-name {
+        position: relative;
+        text-align: left;
+        letter-spacing: 2px;
+        font-size: 2.2em;
+        left: 50px;
+        top: -2px;
+    }
+    .container-aplication-name span {
+        position: relative;
+        box-sizing: border-box;
+        font-size: 13px;
+        text-align: left;
+        border-right: 0;
+        padding: 0.3em 0.5em;
+        margin: 0;
+        background-color: rgba(4, 22, 51, 0.1);
+        left: 50px;
+    }
+    /*SECCION 1*/
+    /*SECCION 2*/
+    .container-seccion-2 {
+        width: 50%;
+        height: 100%;
+        float: left;
+        /*hack para ie*/
+    }
+    .container-login {
+        width: 100%;
+        height: 60%;
+        position: relative;
+        /*hack para ie*/
+        top: 8em;
+        /*hack para ie*/
+        left: 0;
+        /*hack para ie*/
+        margin-top: 0;
+        /*hack para ie*/
+    }
+    .icon-title-login{
+        font-size: 3.1em;
+    }
+    /*SECCION 2*/
+    /*SECCION 3*/
+    .container-seccion-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 25%;
+        height: 100%;
+    }
+    .banner-letter {
+        margin: 0 50px 50px 0;
+        font-size: 2.9em;
+        white-space: nowrap;
+    }
+    .banner-letter span {
+        padding: 0 0.3em 0 0.2em;
+    }
+    /*SECCION 3*/
+}
