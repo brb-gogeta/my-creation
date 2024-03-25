@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courgette', cursive;
+	background-image: url("https://wallpaperaccess.com/full/524676.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; width: 100vw;
+}
+
+#poster {
+	transition: 500ms;
+	width: 70vw; height: 90vh;
+	background: rgb(250, 139, 6);
+	background-color: #e7ea9d;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%235a5857' fill-opacity='0.49' fill-rule='evenodd'%3E%3Cpath d='M1 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 3rem;
+	cursor: pointer;
+}
+
+#top {
+	transition: 500ms;
+	position: absolute;
+	border: 1px solid black;
+	border-bottom: 0px;
+	background-color: #e7ea9d;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%235a5857' fill-opacity='0.49' fill-rule='evenodd'%3E%3Cpath d='M10 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+	width: 74vw; height: 5vw;
+	top: 5vh; left: 10.9vw;
+	border-radius: 5rem 5rem 0 5rem;
+}
+
+#top::before {
+	content: "";
+	position: absolute;
+	border: 1px solid black;
+	width: 5vw; height: 5vw;
+	margin: -1px 0 0 -1px;
+	border-radius: 5rem;
+	background-image: radial-gradient(
+    circle,
+    #a6a868 0%,
+    #e7ea9d 100%
+  );
+}
+
+#bottom {
+	transition: 500ms;
+	position: absolute;
+	border: 1px solid black;
+	border-bottom: 0px;
+	background-color: #e7ea9d;
+	background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%235a5857' fill-opacity='0.49' fill-rule='evenodd'%3E%3Cpath d='M10 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+	width: 74vw; height: 5vw;
+	bottom: 5vh; right: 10.9vw;
+	border-radius: 5rem;
+	
+}
+
+#bottom::before {
+	content: "";
+	position: absolute;
+	border: 1px solid black;
+	width: 5vw; height: 5vw;
+	margin: -1px 0 0 -1px;
+	border-radius: 5rem;
+	background-image: radial-gradient(
+    circle,
+    #a6a868 0%,
+    #e7ea9d 100%
+  );
+}
+
+h1 {
+	transition: 500ms;
+	text-align: center;
+	padding: 2em 1em;
+	border: 1px solid black;
+	border-radius: 1rem;
+	backdrop-filter: blur(1px);
+	background-color: rgba(255,255,255,0.5);
+	margin: 20px;
+}
+
+h1::before {
+	content: "“";
+	font-size: 300%;
+	position: absolute;
+	margin-top: -60px; left: 0vw;
+	color: rgba(22,22,22,0.3);
+}
+
+label {
+	position: relative;
+	float: right;
+	font-size: 25px;
+	margin-top: 2vw;
+}
