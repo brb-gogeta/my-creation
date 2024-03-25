@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <span id="cursor"></span>
+    
+    
+        <div class="container">
+    
+            <input type="text" id="mdpOut" value="Generateur de mot de passe" readonly>
+    
+            <div class="range">
+                <input type="range" min="4" max="20" value="8" id="rangOutput" oninput="document.getElementById('lenghtOutput').value = this.value">
+                <input type="number" id="lenghtOutput" value="8" oninput="document.getElementById('rangOutput').value = this.value">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="lowerCase" checked>
+                <label for="lowerCase">a-z</label>
+    
+                <input type="checkbox" id="upperCase">
+                <label for="upperCase">A-Z</label>
+    
+                <input type="checkbox" id="numbers">
+                <label for="numbers">0-9</label>
+    
+                <input type="checkbox" id="symboles" checked>
+                <label for="symboles">!-?</label>
+            </div>
+    
+            <div class="generet">
+                <button id="mdpGenerator">Générer le mot de passe</button>
+            </div>
+        </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+    
+</html>
