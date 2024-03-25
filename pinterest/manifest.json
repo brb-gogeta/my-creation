@@ -1,0 +1,229 @@
+{android_package_name: "com.pinterest", background_color: "#fff", display: "minimal-ui",…}
+android_package_name
+: 
+"com.pinterest"
+background_color
+: 
+"#fff"
+display
+: 
+"minimal-ui"
+gcm_sender_id
+: 
+"1021726025582"
+gcm_user_visible_only
+: 
+true
+icons
+: 
+[{src: "https://s.pinimg.com/images/favicon_red_192.png", sizes: "192x192", type: "image/png"}]
+0
+: 
+{src: "https://s.pinimg.com/images/favicon_red_192.png", sizes: "192x192", type: "image/png"}
+name
+: 
+"Pinterest"
+orientation
+: 
+"portrait"
+related_applications
+: 
+[{platform: "play", id: "com.pinterest"}, {platform: "play", id: "com.pinterest.ota"},…]
+0
+: 
+{platform: "play", id: "com.pinterest"}
+id
+: 
+"com.pinterest"
+platform
+: 
+"play"
+1
+: 
+{platform: "play", id: "com.pinterest.ota"}
+id
+: 
+"com.pinterest.ota"
+platform
+: 
+"play"
+2
+: 
+{platform: "play", id: "com.pinterest.test"}
+id
+: 
+"com.pinterest.test"
+platform
+: 
+"play"
+3
+: 
+{platform: "play", id: "com.pinterest.twa"}
+id
+: 
+"com.pinterest.twa"
+platform
+: 
+"play"
+4
+: 
+{platform: "play", id: "com.pinterest.dev"}
+id
+: 
+"com.pinterest.dev"
+platform
+: 
+"play"
+5
+: 
+{platform: "webapp", url: "https://www.pinterest.com/manifest.json"}
+platform
+: 
+"webapp"
+url
+: 
+"https://www.pinterest.com/manifest.json"
+short_name
+: 
+"Pinterest"
+start_url
+: 
+"/?utm_source=homescreen_icon"
+theme_color
+: 
+"#FFFFFF"
+url_handlers
+: 
+[{origin: "https://*.pinterest.com"}, {origin: "https://*.pinterest.info"},…]
+0
+: 
+{origin: "https://*.pinterest.com"}
+origin
+: 
+"https://*.pinterest.com"
+1
+: 
+{origin: "https://*.pinterest.info"}
+origin
+: 
+"https://*.pinterest.info"
+2
+: 
+{origin: "https://*.pinterest.at"}
+origin
+: 
+"https://*.pinterest.at"
+3
+: 
+{origin: "https://*.pinterest.com.au"}
+origin
+: 
+"https://*.pinterest.com.au"
+4
+: 
+{origin: "https://*.pinterest.ca"}
+origin
+: 
+"https://*.pinterest.ca"
+5
+: 
+{origin: "https://*.pinterest.ch"}
+origin
+: 
+"https://*.pinterest.ch"
+6
+: 
+{origin: "https://*.pinterest.cl"}
+origin
+: 
+"https://*.pinterest.cl"
+7
+: 
+{origin: "https://*.pinterest.de"}
+origin
+: 
+"https://*.pinterest.de"
+8
+: 
+{origin: "https://*.pinterest.dk"}
+origin
+: 
+"https://*.pinterest.dk"
+9
+: 
+{origin: "https://*.pinterest.es"}
+origin
+: 
+"https://*.pinterest.es"
+10
+: 
+{origin: "https://*.pinterest.fr"}
+origin
+: 
+"https://*.pinterest.fr"
+11
+: 
+{origin: "https://*.pinterest.co.uk"}
+origin
+: 
+"https://*.pinterest.co.uk"
+12
+: 
+{origin: "https://*.pinterest.ie"}
+origin
+: 
+"https://*.pinterest.ie"
+13
+: 
+{origin: "https://*.pinterest.it"}
+origin
+: 
+"https://*.pinterest.it"
+14
+: 
+{origin: "https://*.pinterest.jp"}
+origin
+: 
+"https://*.pinterest.jp"
+15
+: 
+{origin: "https://*.pinterest.co.kr"}
+origin
+: 
+"https://*.pinterest.co.kr"
+16
+: 
+{origin: "https://*.pinterest.com.mx"}
+origin
+: 
+"https://*.pinterest.com.mx"
+17
+: 
+{origin: "https://*.pinterest.nz"}
+origin
+: 
+"https://*.pinterest.nz"
+18
+: 
+{origin: "https://*.pinterest.se"}
+origin
+: 
+"https://*.pinterest.se"
+19
+: 
+{origin: "https://*.pinterest.ph"}
+origin
+: 
+"https://*.pinterest.ph"
+20
+: 
+{origin: "https://*.pinterest.pt"}
+origin
+: 
+"https://*.pinterest.pt"
+21
+: 
+{origin: "https://*.pinterest.ru"}
+origin
+: 
+"https://*.pinterest.ru"
