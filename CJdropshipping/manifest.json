@@ -1,0 +1,50 @@
+
+{name: "CJdropshipping", short_name: "CJ", display: "standalone",…}
+background_color
+: 
+"#001529"
+display
+: 
+"standalone"
+icons
+: 
+[{src: "icons/192-CJ.png", sizes: "192x192"}, {src: "icons/128-CJ.png", sizes: "128x128"},…]
+0
+: 
+{src: "icons/192-CJ.png", sizes: "192x192"}
+sizes
+: 
+"192x192"
+src
+: 
+"icons/192-CJ.png"
+1
+: 
+{src: "icons/128-CJ.png", sizes: "128x128"}
+sizes
+: 
+"128x128"
+src
+: 
+"icons/128-CJ.png"
+2
+: 
+{src: "icons/512-CJ.png", sizes: "512x512"}
+sizes
+: 
+"512x512"
+src
+: 
+"icons/512-CJ.png"
+name
+: 
+"CJdropshipping"
+short_name
+: 
+"CJ"
+start_url
+: 
+"./?utm_source=homescreen"
+theme_color
+: 
+"#002140"
