@@ -1,0 +1,38 @@
+.lnk {FONT: 14px   Palatino Linotype, Athena Roman }
+.rf{FONT: 5px   Times New Roman, Palatino Linotype, Athena Roman }
+.cover{ FONT: 18px Franklin Gothic Book, Trebuchet MS ; line-height:40px; font-weight:600}
+H3 {
+FONT: 24px Palatino Linotype, Trebuchet MS, Helvetica; COLOR: firebrick; line-height:60px; font-weight: 600
+}
+
+.vg{FONT: 18px   Palatino Linotype, Athena Roman ; font-weight:500; COLOR: black
+}
+.tg{FONT: 19px  Palatino Linotype,Vusillus Old Face, Athena ; COLOR:navy; font-weight:500
+}
+
+.vf{FONT: 17px  Palatino Linotype, Century SchoolBook, Lucida, Franklin Gothic Book, Trebuchet MS  font-weight:500; COLOR:black
+}
+.tf{
+	FONT: 20px Times New Roman, Times; COLOR: navy; font-weight:500
+}
+
+.num{
+	FONT: 18px  Lucida, Times New Roman, Times, Trebuchet MS; COLOR:red; font-weight: 400
+}
+
+
+HR { COLOR: slategray
+
+}
+A {
+ TEXT-DECORATION: none
+}
+A:link {
+	COLOR:navy
+}
+A:visited {
+	COLOR: navy
+}
+
+A:hover { color:purple} 
+A:hover:active {color: red} 
